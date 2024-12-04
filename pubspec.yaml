@@ -1,7 +1,9 @@
 name: dart_regex
 description: Type-safe DSL for building regular expressions in Dart using composable building blocks.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+version: 0.0.1
+repository: https://github.com/Hari-07/dart-regex
+issue_tracker: https://github.com/Hari-07/dart-regex/issues
+
 
 environment:
   sdk: ^3.5.4
