@@ -1,5 +1,5 @@
 name: dart_regex
-description: A starting point for Dart libraries or applications.
+description: Type-safe DSL for building regular expressions in Dart using composable building blocks.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
