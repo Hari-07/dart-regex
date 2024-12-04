@@ -13,23 +13,23 @@ and the Flutter guide for
 
 A Type-safe DSL for building regular expressions in Dart using composable building blocks.
 
-<!-- ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos. -->
-
-<!-- ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package. -->
-
-<!-- ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+## Usage
 
 ```dart
-const like = 'sample';
-``` -->
+final DartRegex emailPatternDSL = DartRegex([
+  CaptureGroup(
+    OneOrMore(Word()),
+  ),
+  CharacterSet('@'),
+  CaptureGroup(
+    OneOrMore(
+      AtomGroup(
+        [Word(), CharacterSet('.'), Word()],
+      ),
+    ),
+  ),
+]);
+```
 
 ## Available Components
 ### Atoms
